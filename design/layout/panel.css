@@ -1,0 +1,7 @@
+#panel {
+    grid-area: 2 / 2 / 4 / 4;
+
+    background-color: #2b5991;
+
+    border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+body, html {
+    margin: 5px;
+    padding: 0;
+    background-color: #10161b;
+}
+
+#container-fluid {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(2, 1.25fr);
+    grid-template-rows: 0.5fr repeat(2, 1.25fr);
+    grid-gap: 10px;
+
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar panel panel"
+    "sidebar panel panel";
+}

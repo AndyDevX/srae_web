@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icons/ummaW.png" type="image/x-icon">
+    <title>SRAE</title>
+
+    <link rel="stylesheet" href="design/layout/header.css">
+    <link rel="stylesheet" href="design/layout/panel.css">
+    <link rel="stylesheet" href="design/layout/main.css">
+    <link rel="stylesheet" href="design/layout/sidebar.css">
+    <link rel="stylesheet" href="design/components/btn-group.css">
+</head>
+
+<div id="container-fluid">
+    <div id="header">
+        <h2>SRAE</h2>
+        <p>Hola</p>
+    </div>
+
+    <div id="sidebar">
+        <div id="title">
+            <h2>SRAE</h2>
+            <p>Sistema de Registro de Asistencia a Eventos</p>
+        </div>
+        
+        <div class="btn-group">
+            <button onclick="goto('index.html')">Inicio</button>
+            <button>Estudiantes</button>
+            <button>Eventos</button>
+            <button>Campañas</button>
+            <button>Asistencias</button>
+            <button>Reportes</button>
+        </div>
+        
+    </div>
+
+    <div id="panel">
+        
+        <!-- ESTE ES UN EJEMPLO, DENTRO DE #PANEL, SE GENERARÁ CON JS, EL CONTENIDO SEGÚN LA PÁGINA -->
+        <div id="home">
+            <h2>Evento próximo: Chica y chico UMMA (3 de junio de 2024)</h2>
+            <p>Circo teatro renacimiento, 19:00</p>
+            
+
+            <div>
+                <div class="card">
+                    <img src="" alt="icon">
+                    <div class="card-body">
+                        <h5 class="card-title">Estudiantes</h5>
+                        <p class="card-text">Control de los estudiantes dados de alta en la institución</p>
+                        <p class="card-text">Registros: 481</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="icon">
+                    <div class="card-body">
+                        <h5 class="card-title">Eventos</h5>
+                        <p class="card-text">Descripción de la tabla</p>
+                        <p class="card-text">Registros: 8</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</html>
+
+<script src="scripts/goto.js"></script>

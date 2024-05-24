@@ -1,0 +1,26 @@
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+
+    button {
+        height: 3rem;
+        margin-bottom: 0.5rem;
+        
+        border: none;
+        background-color: #255288;
+        color: #fff;
+        border-radius: 5px;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+    }
+    button:hover {
+        background-color: #1b4475;
+    }
+
+    button:active {
+        background-color: #97b7dd;
+        color: rgb(8, 3, 19);
+    }
+}
